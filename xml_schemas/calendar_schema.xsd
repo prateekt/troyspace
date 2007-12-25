@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML Studio 1.0.7.0 (http://www.liquid-technologies.com) -->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="calendar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="year">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="month">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="day">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" maxOccurs="100000" name="event">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="name" type="xs:string" />
+                                <xs:element name="start_time">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="hour" type="xs:string" />
+                                      <xs:element name="minute" type="xs:string" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="end_time">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="hour" type="xs:string" />
+                                      <xs:element name="minute" type="xs:string" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="location" type="xs:string" />
+                                <xs:element name="description" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="day_name" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="month_name" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="year_name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
