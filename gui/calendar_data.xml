@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML Studio 1.0.7.0 (http://www.liquid-technologies.com) -->
+<calendar>
+  <year>
+    <month>
+      <day>
+        <event>
+          <name>Ice Cream Social</name>
+          <start_time>
+            <hour>7</hour>
+            <minute>30</minute>
+          </start_time>
+          <end_time>
+            <hour>9</hour>
+            <minute>30</minute>
+          </end_time>
+          <location>3rd Floor Lounge</location>
+          <description>Come enjoy ice cream with your friends!</description>
+        </event>
+       <day_name>1</day_name>
+      </day>
+      <month_name>January</month_name>
+    </month>
+    <year_name>2008</year_name>
+  </year>
+</calendar>
