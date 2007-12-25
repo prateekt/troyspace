@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML Studio 1.0.7.0 (http://www.liquid-technologies.com) -->
+<xs:schema xmlns="http://www.mvld.org" elementFormDefault="qualified" targetNamespace="http://www.mvld.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="event_set">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="10000" name="event">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" />
+              <xs:element name="start_time">
+                <xs:complexType>
+                  <xs:all>
+                    <xs:element name="hour" type="xs:string" />
+                    <xs:element name="minute" type="xs:string" />
+                  </xs:all>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="end_time">
+                <xs:complexType>
+                  <xs:all>
+                    <xs:element name="hour" type="xs:string" />
+                    <xs:element name="minute" type="xs:string" />
+                  </xs:all>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="date">
+                <xs:complexType>
+                  <xs:all>
+                    <xs:element name="day_of_week" type="xs:string" />
+                    <xs:element name="day" type="xs:string" />
+                    <xs:element name="month" type="xs:string" />
+                    <xs:element name="year" type="xs:string" />
+                  </xs:all>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="location" type="xs:string" />
+              <xs:element name="description" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
