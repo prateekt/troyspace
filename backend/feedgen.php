@@ -223,15 +223,15 @@ function htmlwrap($str, $width = 50, $break = "\n", $nobreak = "") {
 <?
 if(!ini_get('safe_mode'))
 	putenv("TZ=America/Los_Angeles");
-$calendar_xml_address[0] = "http://www.google.com/calendar/feeds/bdu50c5cjtbcmhecc7gobklo6k%40group.calendar.google.com/public/basic";	 
+$calendar_xml_address[0] = "http://www.google.com/calendar/feeds/usccalendar@gmail.com/public/basic";	 
 $cache_location="";
 $dateformat="D j F, Y"; // Thursday, 10 March - see http://www.php.net/date for details	
 $timeFormat = "g:ia";
 $compareDateFormat = "D F Y";
 $simplepie_location = "gcal_api/simplepie.inc";
-$gcalmanager_location = "gcal_api/GCalManager.inc";
+$gcalmanager_location = "gcal_api/GCalManager.php";
 include ($simplepie_location);
-include ($gcalmanager_location);
+include_once $gcalmanager_location;
 
 $g = new GCalManager();
 

@@ -9,13 +9,12 @@ class GCalManager {
 		$oneEventExists = false;
 		
 		foreach($calendarListing as $calendar_xml_address) {
-			$url = $calendar_xml_address . "?max-results=1000000&start-min=" . $startDate . "&start-max=" . $endDate;
 			$feed = new SimplePie();
-			$feed->feed_url($url);
+			$feed->feed_url($calendar_xml_address . "?start-min=" . $startDate . "&start-max=" . $endDate);
 			$feed->cache_location($cache_location);
 			$feed->init();
 
-			echo $url;
+			//echo $calendar_xml_address . "?start-min=" . $startDate . "&start-max=" . $endDate;
 
 			if($feed->get_item_quantity()==0)
 				continue;
