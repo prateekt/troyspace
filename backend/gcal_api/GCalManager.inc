@@ -1,5 +1,7 @@
 <?php
 
+include ("simplepie.inc");
+
 class GCalManager {
 	
 	function GCalManager(){
