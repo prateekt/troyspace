@@ -17,19 +17,6 @@
           <location>3rd Floor Lounge</location>
           <description>Come enjoy ice cream with your friends!</description>
         </event>
- 	  <event>
-          <name>Ice Cream Social</name>
-          <start_time>
-            <hour>7</hour>
-            <minute>30</minute>
-          </start_time>
-          <end_time>
-            <hour>9</hour>
-            <minute>30</minute>
-          </end_time>
-          <location>3rd Floor Lounge</location>
-          <description>Come enjoy ice cream with your friends!</description>
-        </event>
        <day_name>25</day_name>
       </day>
       <month_name>December</month_name>
