@@ -12,11 +12,12 @@ class GCalManager {
 		
 		foreach($calendarListing as $calendar_xml_address) {
 			$feed = new SimplePie();
-			$feed->feed_url($calendar_xml_address . "?start-min=" . $startDate . "&start-max=" . $endDate);
+			$feedURL = $calendar_xml_address . "?start-min=" . $startDate . "&start-max=" . $endDate ."&max-results=500";
+			echo $feedURL;
+			$feed->feed_url($feedURL);
 			$feed->cache_location($cache_location);
 			$feed->init();
 
-			//echo $calendar_xml_address . "?start-min=" . $startDate . "&start-max=" . $endDate;
 
 			if($feed->get_item_quantity()==0)
 				continue;
@@ -65,7 +66,7 @@ class GCalManager {
 						$endTimeStr = substr($endTimeStr, 0,  strpos($endTimeStr, '&'));
 						$endTime = strtotime($endTimeStr);
 					}
-					$events[]=array('beginTime'=>$beginTime, 'endTime'=>$endTime, 'where'=>$where,'title'=>$item->get_title(), 'desc'=>			$desc,'url'=>$url[0], 'id'=>$id);
+					$events[]=array('beginTime'=>$beginTime, 'endTime'=>$endTime, 'where'=>$where,'title'=>$item->get_title(), 'desc'=>$desc,'url'=>$url[0], 'id'=>$id);
 				}
 				else { //Recurring  event
 					$evtStartStr = trim(substr($from, strpos($from, "First start: ")+12));

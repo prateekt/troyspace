@@ -53,6 +53,7 @@ class XMLGenerator {
 		$cMonth = "";
 		$cYear = "";
 		$cDay = "";
+		$lastEvent = "";
 		
 		foreach($events as $event) {
 			
@@ -62,29 +63,29 @@ class XMLGenerator {
 			$eventDay = date("d", $event['beginTime']);
 						
 			if($eventYear==$cYear && $eventMonth==$cMonth && $eventDay==$cDay) {
-				$this->buff = $this->buff . $this->genEventXML($event);
+				$this->buff = $this->buff . $this->genEventXML($lastEvent);
 			}
 			else if($eventYear==$cYear && $eventMonth==$cMonth) {
-				$this->buff = $this->buff . $this->genDayCloseXML();
-				$this->buff = $this->buff . $this->genDayOpenXML($event);
+				$this->buff = $this->buff . $this->genDayCloseXML($lastEvent);
+				$this->buff = $this->buff . $this->genDayOpenXML();
 				$this->buff = $this->buff . $this->genEventXML($event);
 			}
 			else if($eventYear==$cYear) {
-				$this->buff = $this->buff . $this->genDayCloseXML();				
-				$this->buff = $this->buff . $this->genMonthCloseXML();
-				$this->buff = $this->buff . $this->genMonthOpenXML($event);
-				$this->buff = $this->buff . $this->genDayOpenXML($event);
+				$this->buff = $this->buff . $this->genDayCloseXML($lastEvent);				
+				$this->buff = $this->buff . $this->genMonthCloseXML($lastEvent);
+				$this->buff = $this->buff . $this->genMonthOpenXML();
+				$this->buff = $this->buff . $this->genDayOpenXML();
 				$this->buff = $this->buff . $this->genEventXML($event);
 			}
 			else {
 				if(!($cMonth == "" && $cYear == "" && $cDay == "")) { //if not first case
-					$this->buff = $this->buff . $this->genDayCloseXML();				
-					$this->buff = $this->buff . $this->genMonthCloseXML();
-					$this->buff = $this->buff . $this->genYearCloseXML();
+					$this->buff = $this->buff . $this->genDayCloseXML($lastEvent);				
+					$this->buff = $this->buff . $this->genMonthCloseXML($lastEvent);
+					$this->buff = $this->buff . $this->genYearCloseXML($lastEvent);
 				}
-				$this->buff = $this->buff . $this->genYearOpenXML($event);			
-				$this->buff = $this->buff . $this->genMonthOpenXML($event);
-				$this->buff = $this->buff . $this->genDayOpenXML($event);
+				$this->buff = $this->buff . $this->genYearOpenXML();			
+				$this->buff = $this->buff . $this->genMonthOpenXML();
+				$this->buff = $this->buff . $this->genDayOpenXML();
 				$this->buff = $this->buff . $this->genEventXML($event);
 			}
 			
@@ -92,13 +93,13 @@ class XMLGenerator {
 			$cMonth = $eventMonth;
 			$cYear = $eventYear;
 			$cDay = $eventDay;
-
+			$lastEvent = $event;
 		}
 		
 		//add final close tag to day, month, year
-		$this->buff = $this->buff . $this->genDayCloseXML();				
-		$this->buff = $this->buff . $this->genMonthCloseXML();
-		$this->buff = $this->buff . $this->genYearCloseXML();
+		$this->buff = $this->buff . $this->genDayCloseXML($lastEvent);				
+		$this->buff = $this->buff . $this->genMonthCloseXML($lastEvent);
+		$this->buff = $this->buff . $this->genYearCloseXML($lastEvent);
 		
 		return $this->buff;								
 	}
@@ -109,58 +110,49 @@ class XMLGenerator {
 	 * @param $event - an event object.
 	 * @return - XML open tag tailored to event object.
 	 */
-	function genYearOpenXML($event) {
-		return 
-		  "<year>
-    			<year_name>".date("Y", $event['beginTime'])."</year_name>
-		  ";
+	function genYearOpenXML() {
+		return "<year>";
 	}
 
 	/*
 	 * Returns XML close tag for year.
 	 */	
-	function genYearCloseXML() {
-		return "</year>";
+	function genYearCloseXML($event) {
+		return "<year_name>".date("Y", $event['beginTime'])."</year_name></year>";
 	}
 	
 	/*
 	 * Utility function to generate month open tag.
-	 *
-	 * @param $event - an event object.
-	 * @return - XML open tag tailored to event object.
 	 */
-	function genMonthOpenXML($event) {
-		return
-			"<month>
-      			<month_name>".date("m", $event['beginTime'])."</month_name>
-			";
+	function genMonthOpenXML() {
+		return "<month>";
 	}
 	
 	/*
 	 * Utility function to generate close tag for month.
-	 */
-	function genMonthCloseXML() {
-		return "</month>";
-	}
-	
-	/*
-	 * Utility function to generate day open tag.
 	 *
 	 * @param $event - an event object.
 	 * @return - XML open tag tailored to event object.
 	 */
-	function genDayOpenXML($event) {
-		return
-			"<day>
-				<day_name>".date("d", $event['beginTime'])."</day_name>
-			";
+	function genMonthCloseXML($event) {
+		return "<month_name>".date("F", $event['beginTime'])."</month_name></month>";
+	}
+	
+	/*
+	 * Utility function to generate day open tag.
+	 */
+	function genDayOpenXML() {
+		return "<day>";
 	}
 	
 	/*
 	 * Utility function to generate close tag for day.
+	 *
+	 * @param $event - an event object.
+	 * @return - XML open tag tailored to event object.
 	 */
-	function genDayCloseXML() {
-		return "</day>";
+	function genDayCloseXML($event) {
+		return "<day_name>".date("d", $event['beginTime'])."</day_name></day>";
 	}
 	
 	/*
