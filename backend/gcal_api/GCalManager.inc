@@ -44,7 +44,7 @@ class GCalManager {
 				} else {
 					$desc = substr($desc, strpos($desc, "Event Description: ")+18);
 				}
-				//$desc = $this->fixoutput($desc);
+				$desc = $this->fixoutput($desc);
 
 				// Extract the link for Google Calendar
 				$url=$item->get_links();
