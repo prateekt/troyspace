@@ -44,6 +44,7 @@ class GCalManager {
 				} else {
 					$desc = substr($desc, strpos($desc, "Event Description: ")+18);
 				}
+				//$desc = $this->fixoutput($desc);
 
 				// Extract the link for Google Calendar
 				$url=$item->get_links();
@@ -98,6 +99,29 @@ class GCalManager {
 			return $events;
 		}
 	}
+	
+	function fixoutput($str){
+		$good[] = 9;  #tab
+		$good[] = 10; #nl
+		$good[] = 13; #cr
+		for($a=32;$a<127;$a++){
+			$good[] = $a;
+		}   
+		$len = strlen($str);
+		for($b=0;$b < $len+1; $b++){
+			if(in_array(ord($str[$b]), $good)){
+				$newstr .= $str[$b];
+			}//fi
+		}//rof
+		
+		//replace duplicate white spaces.
+		while(strpos($newstr, "  ")===true) {
+			$newstr = str_replace("  ", " ", $newstr);
+		}
+	
+	    return $newstr;
+	}
+	
 
 	function getCurrentTimeStamp() {
 		return time();
