@@ -55,19 +55,28 @@ class GCalManager {
 				if(strpos($from, 'Recurring Event') === false) { //Not a recurring event
 					$from = trim(substr($from,strpos($from,"When: ")+6));
 					$pos = strpos($from, 'to');
-					$beginTimeStr = trim(substr($from,0,$pos));
-					$beginTime = strtotime(trim(substr($from,0,$pos)));	 
-					$strEndPos = strpos($from,'&');
-					$toStr = substr($from,$pos+2, $strEndPos - $pos +2);
-					if(strpos($toStr, ',') > -1) {
-						$endTime = strtotime(substr($toStr, 0, strpos($toStr, '&')));
-					} else {
-						$lastSpace =  strlen($beginTimeStr) - strpos(strrev($beginTimeStr), ' ');
-						$endTimeStr = substr($beginTimeStr, 0, $lastSpace) . $toStr;
-						$endTimeStr = substr($endTimeStr, 0,  strpos($endTimeStr, '&'));
-						$endTime = strtotime($endTimeStr);
+					if(strpos($from, 'to') !== false) {
+						$beginTimeStr = trim(substr($from,0,$pos));
+						$beginTime = strtotime(trim(substr($from,0,$pos)));	 
+						$strEndPos = strpos($from,'&');
+						$toStr = substr($from,$pos+2, $strEndPos - $pos +2);
+						if(strpos($toStr, ',') > -1) {
+							$endTime = strtotime(substr($toStr, 0, strpos($toStr, '&')));
+						} else {
+							$lastSpace =  strlen($beginTimeStr) - strpos(strrev($beginTimeStr), ' ');
+							$endTimeStr = substr($beginTimeStr, 0, $lastSpace) . $toStr;
+							$endTimeStr = substr($endTimeStr, 0,  strpos($endTimeStr, '&'));
+							$endTime = strtotime($endTimeStr);
+						}
+						$events[]=array('beginTime'=>$beginTime, 'endTime'=>$endTime, 'where'=>$where,'title'=>$item->get_title(), 'desc'=>$desc,'url'=>$url[0], 'id'=>$id);
 					}
-					$events[]=array('beginTime'=>$beginTime, 'endTime'=>$endTime, 'where'=>$where,'title'=>$item->get_title(), 'desc'=>$desc,'url'=>$url[0], 'id'=>$id);
+					//All day event
+					else {
+						$pos1 = strpos($from, "&lt;");
+						$beginTimeStr = substr($from, 0, $pos1);
+						$beginTime = strtotime($beginTimeStr);
+						$events[]=array('beginTime'=>$beginTime, 'endTime'=>$endTime, 'where'=>$where,'title'=>$item->get_title(), 'desc'=>$desc,'url'=>$url[0], 'id'=>$id);
+					}
 				}
 				else { //Recurring  event
 					$evtStartStr = trim(substr($from, strpos($from, "First start: ")+12));

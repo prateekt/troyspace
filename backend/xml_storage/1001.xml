@@ -2263,19 +2263,41 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
 5:00-7:00 pm
 Meet Patrice Barber, USCs Registered Dietician and Nutritionist, who can Assist you to create a healthy plan for eating at Residential Dining.</description>
         </event><day_name>21</day_name></day><day><event>
-          <name>Deep Conversations With Real People</name>
+          <name>RESIDENT MOVE IN DAY</name>
           <start_time>
-            <hour>01</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>02</hour>
+            <hour>18</hour>
             <minute>00</minute>
           </end_time>
-          <location>PAHRC 3rd Floor Green Hallway</location>
-          <description> Weekly discussions pertaining to freshmen related issues.
-
-Note: This event is only open to residents of the 3rd floor green side.</description>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>RESIDENT MOVE IN DAY</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>18</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Residents Move In</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>17</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
         </event><event>
           <name>Deep Conversations With Real People</name>
           <start_time>
@@ -3543,6 +3565,42 @@ www.usc.edu/volunteer</description>
           <location></location>
           <description></description>
         </event><event>
+          <name>Passport Kick-off, welcome convocation, outdoor event</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>21</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Funding Starts</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Classes Begin</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>22</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
           <name>University Information Center</name>
           <start_time>
             <hour>08</hour>
@@ -3615,16 +3673,28 @@ www.usc.edu/volunteer</description>
           <location>McCarthy Quad</location>
           <description></description>
         </event><day_name>27</day_name></day><day><event>
-          <name>University Information Center</name>
+          <name>aryushana begins (Jain)</name>
           <start_time>
-            <hour>08</hour>
-            <minute>30</minute>
+            <hour>00</hour>
+            <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>17</hour>
+            <hour>12</hour>
             <minute>00</minute>
           </end_time>
-          <location>Topping Student Center</location>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>aryushana begins (Jain)</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>12</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>University Information Center</name>
@@ -3889,13 +3959,25 @@ Activities include archery, chess, cross country skiing, equestrian sports, ice 
           <location>Pardee Tower 2nd Floor</location>
           <description> The SoCal Vocals are coming to the 2nd floor of Pardee Tower to introduce freshmen to the a cappella scene at USC.</description>
         </event><day_name>29</day_name></day><day><event>
-          <name>Enter Name for Bg Elections</name>
+          <name>Bike Registration and meet the DPS</name>
           <start_time>
-            <hour>11</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>12</hour>
+            <hour>16</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Bike Registration and meet the DPS</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>16</hour>
             <minute>00</minute>
           </end_time>
           <location></location>
@@ -4073,6 +4155,18 @@ service and/or an individual or group spiritual experience once during this week
           <location></location>
           <description></description>
         </event><event>
+          <name>Trojan History, Knights and Helens?</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>21</hour>
+            <minute>30</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
           <name>BG Campaign Begins</name>
           <start_time>
             <hour>09</hour>
@@ -4121,16 +4215,28 @@ service and/or an individual or group spiritual experience once during this week
           <location></location>
           <description></description>
         </event><day_name>31</day_name></day><month_name>August</month_name></month><month><day><event>
-          <name>Trojan Vision Host Tryouts</name>
+          <name>USC v. Idaho Football</name>
           <start_time>
-            <hour>13</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>21</hour>
+            <hour>20</hour>
             <minute>00</minute>
           </end_time>
-          <location>Trojan Vision Station</location>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>USC v. Idaho Football</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>20</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>Trojan Vision Host Tryouts</name>
@@ -4181,21 +4287,29 @@ service and/or an individual or group spiritual experience once during this week
           <location>LA Collesium</location>
           <description> The USC football team kicks off its 2007 season.</description>
         </event><day_name>01</day_name></day><day><event>
-          <name>Bike Tour of LA</name>
+          <name>Sorority Recruitment</name>
           <start_time>
-            <hour>12</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>15</hour>
+            <hour>20</hour>
             <minute>00</minute>
           </end_time>
           <location></location>
-          <description> Join with others for one of three adventures. Meet outside Trojan Grounds at 12:00 p.m. Be sure to bring your bike helmet, if applicable.
-1. Bike tour downtown
-2. Bike tour of North University Park neighborhood
-3. Walking tour of historic North University Park
-Claire from the second floor will be going, so keep an eye out for her!</description>
+          <description></description>
+        </event><event>
+          <name>Sorority Recruitment</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>20</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
         </event><event>
           <name>Bike Tour of LA</name>
           <start_time>
@@ -4213,16 +4327,52 @@ Claire from the second floor will be going, so keep an eye out for her!</descrip
 3. Walking tour of historic North University Park
 Claire from the second floor will be going, so keep an eye out for her!</description>
         </event><day_name>02</day_name></day><day><event>
-          <name>CBCSA and Black Student Assembly Annual Labor Day BBQ</name>
+          <name>BG Info Night</name>
           <start_time>
-            <hour>11</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>17</hour>
+            <hour>15</hour>
             <minute>00</minute>
           </end_time>
-          <location>Alumni Park</location>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>BG Info Night</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>15</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Labor Day NO SCHOOL!</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>22</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>United States</location>
+          <description></description>
+        </event><event>
+          <name>Sorority Recruitment</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>14</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>CBCSA and Black Student Assembly Annual Labor Day BBQ</name>
@@ -4256,6 +4406,42 @@ Claire from the second floor will be going, so keep an eye out for her!</descrip
           </start_time>
           <end_time>
             <hour>00</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Sri Krishna Jayanti (Hindu)</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>16</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Interfaith Council</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>IM Soccer Entries Due</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>14</hour>
             <minute>00</minute>
           </end_time>
           <location></location>
@@ -4359,19 +4545,29 @@ Meet Patrice Barber, USCs Registered Dietician and Nutritionist, who can Assist 
           <location>THH</location>
           <description></description>
         </event><day_name>04</day_name></day><day><event>
-          <name>Deep Conversations With Real People</name>
+          <name>Money Management</name>
           <start_time>
-            <hour>01</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>02</hour>
+            <hour>21</hour>
             <minute>00</minute>
           </end_time>
-          <location>PAHRC 3rd Floor Green Hallway</location>
-          <description> Weekly discussions pertaining to freshmen related issues.
-
-Note: This event is only open to residents of the 3rd floor green side.</description>
+          <location>Credit Union</location>
+          <description></description>
+        </event><event>
+          <name>Money Management</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>21</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>Credit Union</location>
+          <description></description>
         </event><event>
           <name>Deep Conversations With Real People</name>
           <start_time>
@@ -4499,16 +4695,28 @@ Is it just hard work? Definitely not. Follow our steps and you can do it too!
 
 Students who did the "freshmen 4.0" from all disciplines (Business, Engineering, Pre-Med, etc) will be present.</description>
         </event><day_name>05</day_name></day><day><event>
-          <name>MTM Meeting</name>
+          <name>Healthy Food Demo</name>
           <start_time>
-            <hour>09</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>11</hour>
+            <hour>14</hour>
             <minute>00</minute>
           </end_time>
-          <location>Topping 205</location>
+          <location>Evk</location>
+          <description></description>
+        </event><event>
+          <name>Healthy Food Demo</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>14</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>Evk</location>
           <description></description>
         </event><event>
           <name>MTM Meeting</name>
@@ -4607,23 +4815,29 @@ Students who did the "freshmen 4.0" from all disciplines (Business, Engineering,
           <location>Cafe 84</location>
           <description> Cardinal Gardens staff will proudly be presenting Blades of Glory!</description>
         </event><day_name>06</day_name></day><day><event>
-          <name>Kramer Mad Money</name>
+          <name>Sorority Recruitment</name>
           <start_time>
-            <hour>10</hour>
-            <minute>30</minute>
+            <hour>00</hour>
+            <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>12</hour>
-            <minute>30</minute>
+            <hour>13</hour>
+            <minute>00</minute>
           </end_time>
-          <location>Bovard Auditorium</location>
-          <description> Hey there, Home Gamers! Mad Money's Back to School Tour is on the road again. Next stop: The USC Marshall School of Business on Friday, Sept. 7.
-
-Show Location: Bovard Auditorium
-Date of Taping: Friday, Sept. 7, 2007
-Audience Arrival Time: 10:30AM PT
-
-Age Restriction: Must be 18 years or over.</description>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Sorority Recruitment</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>13</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
         </event><event>
           <name>Kramer Mad Money</name>
           <start_time>
@@ -4679,13 +4893,37 @@ Age Restriction: Must be 18 years or over.</description>
           <location>350 South Grand Ave.</location>
           <description> The powerhouse sextet from Northern California brings a fresh mix of a capella singing, beatbox, body music, and hand clapping--all rooted in jazz, funk, R&amp;amp;B and world music. Event will be capped @ 20/25 residents (more if we get more drivers). Open to residents of PAHRC Music Floor and 4th Floor only.</description>
         </event><day_name>07</day_name></day><day><event>
-          <name>Camp over night</name>
+          <name>Nativity of the Blessed Virgin Mary (Roman Catholic)</name>
           <start_time>
             <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
+            <hour>11</hour>
+            <minute>30</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Nativity of the Blessed Virgin Mary (Roman Catholic)</name>
+          <start_time>
             <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>11</hour>
+            <minute>30</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Sorority Recruitment</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>15</hour>
             <minute>00</minute>
           </end_time>
           <location></location>
@@ -4775,16 +5013,28 @@ Age Restriction: Must be 18 years or over.</description>
           <location>Trojan Vision Station</location>
           <description></description>
         </event><day_name>08</day_name></day><day><event>
-          <name>Black Welcome Week Church Service and Brunch</name>
+          <name>Sorority Recruitment</name>
           <start_time>
-            <hour>11</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>13</hour>
+            <hour>21</hour>
             <minute>00</minute>
           </end_time>
-          <location>West Angeles Church</location>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Sorority Recruitment</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>21</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>Black Welcome Week Church Service and Brunch</name>
@@ -4799,6 +5049,42 @@ Age Restriction: Must be 18 years or over.</description>
           <location>West Angeles Church</location>
           <description></description>
         </event><day_name>09</day_name></day><day><event>
+          <name>OT Sleep Programs</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>18</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>OT Sleep Programs</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>18</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Workout Classes Begin</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>17</hour>
+            <minute>45</minute>
+          </end_time>
+          <location>Lyon Center</location>
+          <description></description>
+        </event><event>
           <name>Multicultural Greek Council Fraternity and Sorority Recruitment</name>
           <start_time>
             <hour>00</hour>
@@ -4811,7 +5097,7 @@ Age Restriction: Must be 18 years or over.</description>
           <location></location>
           <description></description>
         </event><event>
-          <name>Multicultural Greek Council Fraternity and Sorority Recruitment</name>
+          <name>Building Level Study Groups</name>
           <start_time>
             <hour>00</hour>
             <minute>00</minute>
@@ -4859,16 +5145,52 @@ Age Restriction: Must be 18 years or over.</description>
           <location></location>
           <description></description>
         </event><day_name>10</day_name></day><day><event>
-          <name>Black Business Students' Association Sweet Treats on Trousdale</name>
+          <name>IM Tennis Entries Due</name>
           <start_time>
-            <hour>11</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>14</hour>
+            <hour>15</hour>
             <minute>00</minute>
           </end_time>
-          <location>Trousdale Parkway</location>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>IM Tennis Entries Due</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>15</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>9/11 tribute</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>15</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>IM 3x3 Basketball Entries Due</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>16</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>Black Business Students' Association Sweet Treats on Trousdale</name>
@@ -4994,6 +5316,18 @@ Meet Patrice Barber, USCs Registered Dietician and Nutritionist, who can Assist 
           <location></location>
           <description></description>
         </event><event>
+          <name>Fall Volunteer Fair</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>Trousdale</location>
+          <description></description>
+        </event><event>
           <name>Deep Conversations With Real People</name>
           <start_time>
             <hour>01</hour>
@@ -5044,16 +5378,40 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>CBCSA Stu 415</location>
           <description></description>
         </event><day_name>12</day_name></day><day><event>
-          <name>MTM Mtg</name>
+          <name>OT Adjusting to College Life Clinic</name>
           <start_time>
-            <hour>09</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>11</hour>
+            <hour>21</hour>
             <minute>00</minute>
           </end_time>
           <location></location>
+          <description></description>
+        </event><event>
+          <name>OT Adjusting to College Life Clinic</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>21</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Bike Sale</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>21</hour>
+            <minute>30</minute>
+          </end_time>
+          <location>McCarthy</location>
           <description></description>
         </event><event>
           <name>MTM Mtg</name>
@@ -5140,21 +5498,53 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>PAHRC Front Lawn</location>
           <description></description>
         </event><day_name>13</day_name></day><day><event>
-          <name>Parkside Table Tennis Tournament</name>
+          <name>Rites of Sisterhood Mentor Retreat</name>
           <start_time>
-            <hour>17</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>18</hour>
+            <hour>11</hour>
             <minute>00</minute>
           </end_time>
-          <location>PAHRC and PIRC activity rooms</location>
-          <description> Ready for some intense table tennis action?
-
-Enter to win cash prizes!
-
-To enter email: payzer@usc.edu</description>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Rites of Sisterhood Mentor Retreat</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>11</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Last Day to Change Classes</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>20</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>RAD Training</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
         </event><event>
           <name>Parkside Table Tennis Tournament</name>
           <start_time>
@@ -5304,13 +5694,25 @@ To enter email: payzer@usc.edu</description>
           <location>Lincoln, Nebraska</location>
           <description></description>
         </event><day_name>15</day_name></day><day><event>
-          <name>Black Greek Week</name>
+          <name>Passport Finale-healthy Food Floor Meeting</name>
           <start_time>
             <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
+            <hour>13</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Passport Finale-healthy Food Floor Meeting</name>
+          <start_time>
             <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>13</hour>
             <minute>00</minute>
           </end_time>
           <location></location>
@@ -5352,19 +5754,41 @@ To enter email: payzer@usc.edu</description>
           <location>Sierra Balcony</location>
           <description></description>
         </event><day_name>17</day_name></day><day><event>
-          <name>ealthy Food Demo</name>
+          <name>Over-The-Line Softball Entries Due</name>
           <start_time>
-            <hour>20</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>21</hour>
+            <hour>15</hour>
             <minute>00</minute>
           </end_time>
-          <location>Evk</location>
-          <description> Healthy Food Demonstration to be held at EVK
-5:00-7:00 pm
-Meet Patrice Barber, USCs Registered Dietician and Nutritionist, who can Assist you to create a healthy plan for eating at Residential Dining.</description>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Over-The-Line Softball Entries Due</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>15</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>IM Golf Entries Due</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>18</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
         </event><event>
           <name>ealthy Food Demo</name>
           <start_time>
@@ -5432,16 +5856,28 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>Pantages Theatre</location>
           <description> Trip to Broadway musical \"Wicked\"</description>
         </event><day_name>19</day_name></day><day><event>
-          <name>Notetaking: Are You Getting the Most Out of Each Lecture</name>
+          <name>TNL: SOUTH SIDE!</name>
           <start_time>
-            <hour>15</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>16</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </end_time>
-          <location>TSC</location>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>TNL: SOUTH SIDE!</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>Notetaking: Are You Getting the Most Out of Each Lecture</name>
@@ -5502,16 +5938,28 @@ More details to come!
 
 E-Mail us at boscoyue@usc.edu for more information</description>
         </event><day_name>20</day_name></day><day><event>
-          <name>Entry Forms for Homecoming Comptetitions Due</name>
+          <name>BeachFest 2x2 Volleyball tournament</name>
           <start_time>
-            <hour>16</hour>
-            <minute>30</minute>
+            <hour>00</hour>
+            <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>17</hour>
+            <hour>13</hour>
             <minute>00</minute>
           </end_time>
-          <location>TSC 100</location>
+          <location>Beach</location>
+          <description></description>
+        </event><event>
+          <name>BeachFest 2x2 Volleyball tournament</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>13</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>Beach</location>
           <description></description>
         </event><event>
           <name>Entry Forms for Homecoming Comptetitions Due</name>
@@ -5550,17 +5998,29 @@ E-Mail us at boscoyue@usc.edu for more information</description>
           <location>Galen Center</location>
           <description></description>
         </event><day_name>21</day_name></day><day><event>
-          <name>Tail Gate</name>
+          <name>USC v. Washington Football</name>
           <start_time>
-            <hour>10</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>19</hour>
-            <minute>00</minute>
+            <hour>16</hour>
+            <minute>30</minute>
           </end_time>
-          <location>Helena Apartments</location>
-          <description> A day for international residents and other residents to learn about football and enjoy the tradition of tail gating at USC with their neighbors.</description>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>USC v. Washington Football</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>16</hour>
+            <minute>30</minute>
+          </end_time>
+          <location></location>
+          <description></description>
         </event><event>
           <name>Tail Gate</name>
           <start_time>
@@ -5598,17 +6058,29 @@ E-Mail us at boscoyue@usc.edu for more information</description>
           <location>McDonald&amp;#39;s Swim Stadium</location>
           <description></description>
         </event><day_name>22</day_name></day><day><event>
-          <name>Anchor Splash 2007</name>
+          <name>GO! day trip</name>
           <start_time>
-            <hour>11</hour>
-            <minute>30</minute>
+            <hour>00</hour>
+            <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>14</hour>
-            <minute>30</minute>
+            <hour>11</hour>
+            <minute>00</minute>
           </end_time>
           <location></location>
-          <description></description>
+          <description> We will either be adopting a beach or getting surfing lessons! YAY beach days!</description>
+        </event><event>
+          <name>GO! day trip</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>11</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description> We will either be adopting a beach or getting surfing lessons! YAY beach days!</description>
         </event><event>
           <name>Anchor Splash 2007</name>
           <start_time>
@@ -5706,19 +6178,29 @@ E-Mail us at boscoyue@usc.edu for more information</description>
           <location></location>
           <description></description>
         </event><day_name>24</day_name></day><day><event>
-          <name>ealthy Food Demo</name>
+          <name>IM Dodgeball Teaml Entries Due</name>
           <start_time>
-            <hour>20</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>21</hour>
+            <hour>20</hour>
             <minute>00</minute>
           </end_time>
-          <location>Evk</location>
-          <description> Healthy Food Demonstration to be held at EVK
-5:00-7:00 pm
-Meet Patrice Barber, USCs Registered Dietician and Nutritionist, who can Assist you to create a healthy plan for eating at Residential Dining.</description>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>IM Dodgeball Teaml Entries Due</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>20</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
         </event><event>
           <name>ealthy Food Demo</name>
           <start_time>
@@ -5882,16 +6364,40 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>Parkside SCR, and PAHRC apt. 1315</location>
           <description></description>
         </event><day_name>27</day_name></day><day><event>
-          <name>Costa Gavras Film Festival</name>
+          <name>International Alternative Break Applications Due</name>
           <start_time>
             <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>00</hour>
+            <hour>21</hour>
             <minute>00</minute>
           </end_time>
-          <location>Eileen Norris Cinema Theatre</location>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>International Alternative Break Applications Due</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>21</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Ana's Due</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>19</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>Costa Gavras Film Festival</name>
@@ -6026,16 +6532,28 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>4th Floor Central Lounge</location>
           <description> Watch on a giant projector screen!</description>
         </event><day_name>30</day_name></day><month_name>September</month_name></month><month><day><event>
-          <name>Political Posters and Social Change</name>
+          <name>Flag Football Entries Due</name>
           <start_time>
-            <hour>17</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>19</hour>
+            <hour>17</hour>
             <minute>00</minute>
           </end_time>
-          <location>Annenberg Second Floor Gallery</location>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Flag Football Entries Due</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>17</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>Political Posters and Social Change</name>
@@ -6325,16 +6843,40 @@ VBC MySpace URL: www.myspace.com/villagebanking
 
 ~~No cameras allowed inside~~</description>
         </event><day_name>05</day_name></day><day><event>
-          <name>Trojan Vision Host Tryouts</name>
+          <name>FAB: Models of Pride Conference</name>
           <start_time>
-            <hour>13</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>21</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </end_time>
-          <location>Trojan Vision Station</location>
+          <location>Occidental College</location>
+          <description> RSVP required</description>
+        </event><event>
+          <name>FAB: Models of Pride Conference</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>Occidental College</location>
+          <description> RSVP required</description>
+        </event><event>
+          <name>Stanford football</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>14</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>Trojan Vision Host Tryouts</name>
@@ -6361,17 +6903,41 @@ VBC MySpace URL: www.myspace.com/villagebanking
           <location>McDonald&amp;#39;s Swim Stadium</location>
           <description></description>
         </event><day_name>06</day_name></day><day><event>
-          <name>GRUF Hiking Excursion</name>
+          <name>GO! day trip</name>
           <start_time>
-            <hour>14</hour>
-            <minute>30</minute>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>20</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>Griffith Park</location>
+          <description> Horse Back Riding!</description>
+        </event><event>
+          <name>GO! day trip</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>20</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>Griffith Park</location>
+          <description> Horse Back Riding!</description>
+        </event><event>
+          <name>FAB: Gay Days @ Disneyland</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
           </start_time>
           <end_time>
             <hour>19</hour>
             <minute>00</minute>
           </end_time>
-          <location>Pt. Dume</location>
-          <description> Helena, URA, Twin Palms and Fairmont will go hiking at Pt. Dume near Malibu as a part of a series of hikes for the 07-08 academic year to promote health, outdoor recreation and breaks from studying.</description>
+          <location>Disneyland</location>
+          <description></description>
         </event><event>
           <name>GRUF Hiking Excursion</name>
           <start_time>
@@ -6409,7 +6975,31 @@ VBC MySpace URL: www.myspace.com/villagebanking
           <location>Eileen Norris Cinema Theatre</location>
           <description></description>
         </event><day_name>07</day_name></day><day><event>
-          <name>Jar Wars</name>
+          <name>Coming Out BBQ</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>17</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>Alumni Park</location>
+          <description></description>
+        </event><event>
+          <name>Coming Out BBQ</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>17</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>Alumni Park</location>
+          <description></description>
+        </event><event>
+          <name>Columbus Day</name>
           <start_time>
             <hour>00</hour>
             <minute>00</minute>
@@ -6418,8 +7008,8 @@ VBC MySpace URL: www.myspace.com/villagebanking
             <hour>00</hour>
             <minute>00</minute>
           </end_time>
-          <location>CSC</location>
-          <description> Jar Wars is a fundraiser for American Cancer Society's Relay for Life.  It's a competition between the Apartments, IRC North, and IRC South.  A jar for each team will be at the CSC during business hours.  Put coins in your team's jar to earn positive points (one point per cent).  Sabotage other teams by putting bills in their jars (for example, a $1 bill = 100 negative points).   Now through Friday, October 26.  Brought to you by the PIRC AG Community Service Committee.</description>
+          <location>United States</location>
+          <description></description>
         </event><event>
           <name>Jar Wars</name>
           <start_time>
@@ -6469,14 +7059,26 @@ VBC MySpace URL: www.myspace.com/villagebanking
           <location>Multipurpose Room</location>
           <description> USC Yoga and Service club will be conducting a yoga lesson for any interested residents.</description>
         </event><day_name>08</day_name></day><day><event>
-          <name>How to Get the Most for your Student Organization</name>
+          <name>Human Rights Campaign Legacy of Service Tour</name>
           <start_time>
-            <hour>17</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
             <hour>18</hour>
+            <minute>30</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Human Rights Campaign Legacy of Service Tour</name>
+          <start_time>
+            <hour>00</hour>
             <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>18</hour>
+            <minute>30</minute>
           </end_time>
           <location></location>
           <description></description>
@@ -6768,14 +7370,38 @@ Enjoy an open, safe forum to bring up anything they have have been thinking abou
           <location>Bing Theatre</location>
           <description></description>
         </event><day_name>12</day_name></day><day><event>
-          <name>USC Football vs. Arizona</name>
+          <name>U of A football</name>
           <start_time>
-            <hour>12</hour>
-            <minute>30</minute>
+            <hour>00</hour>
+            <minute>00</minute>
           </start_time>
           <end_time>
             <hour>16</hour>
-            <minute>30</minute>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>U of A football</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>16</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Unofficial Tailgayte</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>21</hour>
+            <minute>00</minute>
           </end_time>
           <location></location>
           <description></description>
@@ -6840,16 +7466,28 @@ Enjoy an open, safe forum to bring up anything they have have been thinking abou
           <location>Bing Theatre</location>
           <description></description>
         </event><day_name>13</day_name></day><day><event>
-          <name>Women's Soccer vs. Oregon State</name>
+          <name>Write to Congress: Don't Ask, Don't Tell Policy</name>
           <start_time>
-            <hour>13</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>14</hour>
-            <minute>30</minute>
+            <hour>12</hour>
+            <minute>00</minute>
           </end_time>
-          <location>McAlister Field</location>
+          <location>Rainbow</location>
+          <description></description>
+        </event><event>
+          <name>Write to Congress: Don't Ask, Don't Tell Policy</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>12</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>Rainbow</location>
           <description></description>
         </event><event>
           <name>Women's Soccer vs. Oregon State</name>
@@ -7062,16 +7700,40 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>Bovard</location>
           <description></description>
         </event><day_name>18</day_name></day><day><event>
-          <name>Senior Awards</name>
+          <name>Applications for 2007 Conquest Competitions Due</name>
           <start_time>
-            <hour>16</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>17</hour>
+            <hour>16</hour>
             <minute>00</minute>
           </end_time>
-          <location>TSC 204</location>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Applications for 2007 Conquest Competitions Due</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>16</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Freshman 15 Due</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>18</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>Senior Awards</name>
@@ -7175,28 +7837,29 @@ RCG program</description>
           <location>Hillview 204</location>
           <description> Hillview tailgate for the Notre Dame away game.  BBQ and drinks provided for Hillview residents and first year chem students</description>
         </event><day_name>20</day_name></day><day><event>
-          <name>Reel World Chile</name>
+          <name>LA AIDs Walk</name>
           <start_time>
-            <hour>06</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>07</hour>
+            <hour>15</hour>
             <minute>00</minute>
           </end_time>
           <location></location>
-          <description> Come enjoy free Chilean food while learning more about Chile. 
-
----Donate a dollar so a child can learn---
-In Chile: although public school is compulsory up to the eighth grade, many children
-are unable to attend because their families cannot afford required supplies and
-uniforms. School dropouts and poor school performance also must be combated.
-Please give your Resident Advisor a dollar towards this cause, and we
-will put up a miniature Chilean flag with your name on it in the lobby
-of Parkside Suites in recognition of your support.
-You will also be able to make donations at Reel World Chile, at 6pm
-on 10/21/07 between Parkside Apartments and the Performance
-Caf.</description>
+          <description></description>
+        </event><event>
+          <name>LA AIDs Walk</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>15</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
         </event><event>
           <name>Reel World Chile</name>
           <start_time>
@@ -7395,7 +8058,19 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>Pardee Lawn</location>
           <description> A Haunted House of epic proportions brought to you by the stellar BG and Staff teams of South Area!</description>
         </event><day_name>25</day_name></day><day><event>
-          <name>In The Vernacular: Poetry and Experimental Film</name>
+          <name>Domestic Alternative Break Applications Due</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Domestic Alternative Break Applications Due</name>
           <start_time>
             <hour>00</hour>
             <minute>00</minute>
@@ -7688,19 +8363,29 @@ Meet Patrice Barber, USCs Registered Dietician and Nutritionist, who can Assist 
           <location>All Community 1 buildings</location>
           <description></description>
         </event><day_name>30</day_name></day><day><event>
-          <name>Deep Conversations With Real People</name>
+          <name>Halloween</name>
           <start_time>
-            <hour>01</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>02</hour>
+            <hour>13</hour>
             <minute>00</minute>
           </end_time>
-          <location>PAHRC 3rd Floor Green Hallway</location>
-          <description> Weekly discussions pertaining to freshmen related issues.
-
-Note: This event is only open to residents of the 3rd floor green side.</description>
+          <location>United States</location>
+          <description></description>
+        </event><event>
+          <name>Halloween</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>13</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>United States</location>
+          <description></description>
         </event><event>
           <name>Deep Conversations With Real People</name>
           <start_time>
@@ -7865,16 +8550,40 @@ TALIB KWELI!</description>
           <location>Galen Center</location>
           <description></description>
         </event><day_name>02</day_name></day><day><event>
-          <name>Men's Waterpolo Alumni Game</name>
+          <name>Lambda Alumni Association Homecoming Tailgayte</name>
           <start_time>
-            <hour>12</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>13</hour>
-            <minute>30</minute>
+            <hour>00</hour>
+            <minute>00</minute>
           </end_time>
-          <location>McDonald&amp;#39;s Swim Stadium</location>
+          <location>Argue Plaza</location>
+          <description></description>
+        </event><event>
+          <name>Lambda Alumni Association Homecoming Tailgayte</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>Argue Plaza</location>
+          <description></description>
+        </event><event>
+          <name>OSU Football</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>21</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>Men's Waterpolo Alumni Game</name>
@@ -7997,16 +8706,28 @@ TALIB KWELI!</description>
           <location></location>
           <description> A presentation by the Center for Men and Women.</description>
         </event><day_name>05</day_name></day><day><event>
-          <name>Book Buy Back</name>
+          <name>Election Day</name>
           <start_time>
             <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>00</hour>
+            <hour>22</hour>
             <minute>00</minute>
           </end_time>
-          <location></location>
+          <location>United States</location>
+          <description></description>
+        </event><event>
+          <name>Election Day</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>22</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>United States</location>
           <description></description>
         </event><event>
           <name>Book Buy Back</name>
@@ -8159,17 +8880,29 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>Doheny Memorial Library -- Room 233</location>
           <description></description>
         </event><day_name>09</day_name></day><day><event>
-          <name>Shab-e-Yalda</name>
+          <name>Weekender at Berkeley</name>
           <start_time>
-            <hour>11</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>13</hour>
+            <hour>20</hour>
             <minute>00</minute>
           </end_time>
-          <location>Heidar Baba Restaurant, Pasadena</location>
-          <description> This is a AIM Food for thought program to increase the awareness of persian culture among the residents of GRUF by taking them to a Persian restaurant for lunch.</description>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Weekender at Berkeley</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>20</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
         </event><event>
           <name>Shab-e-Yalda</name>
           <start_time>
@@ -8195,19 +8928,29 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>Trojan Vision Station</location>
           <description></description>
         </event><day_name>10</day_name></day><day><event>
-          <name>Registration Info Session</name>
+          <name>Veteran's Day</name>
           <start_time>
-            <hour>20</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>20</hour>
-            <minute>30</minute>
+            <hour>00</hour>
+            <minute>00</minute>
           </end_time>
-          <location>4th Floor Small Lounge</location>
-          <description> Don't know what GE to take?
-
-Get your questions answered by students who have been through the process before.</description>
+          <location>United States</location>
+          <description></description>
+        </event><event>
+          <name>Veteran's Day</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>United States</location>
+          <description></description>
         </event><event>
           <name>Registration Info Session</name>
           <start_time>
@@ -8291,16 +9034,28 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>Parkside SCR, and PAHRC apt. 1315</location>
           <description></description>
         </event><day_name>15</day_name></day><day><event>
-          <name>Islamic Art: A Museum and Mosque Field Trip</name>
+          <name>PLAYERS BALL</name>
           <start_time>
-            <hour>15</hour>
-            <minute>30</minute>
+            <hour>00</hour>
+            <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>18</hour>
-            <minute>30</minute>
+            <hour>11</hour>
+            <minute>00</minute>
           </end_time>
-          <location>Depart USC</location>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>PLAYERS BALL</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>11</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>Islamic Art: A Museum and Mosque Field Trip</name>
@@ -8437,17 +9192,53 @@ LIVE JAZZ ALL NIGHT LONG
           <location>Parkside Performance Cafe</location>
           <description> Part of Gender Justice Week, the LGBT Resource Center has invited Katz from the Athens Boys Choir to present spoken-word filled with engaging wordplay, razor-sharp wit, and hip-hop rhythms.</description>
         </event><day_name>16</day_name></day><day><event>
-          <name>Men's Waterpolo vs. UC Irvine</name>
+          <name>Theatre/Language/Vision: Changing the World With Words</name>
           <start_time>
-            <hour>12</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>13</hour>
+            <hour>20</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Theatre/Language/Vision: Changing the World With Words</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>20</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>November Service Day</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>19</hour>
             <minute>30</minute>
           </end_time>
-          <location>McDonald&amp;#39;s Swim Stadium</location>
+          <location></location>
           <description></description>
+        </event><event>
+          <name>GO! day trip</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>14</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description> Rock Climbing Trip!!!</description>
         </event><event>
           <name>Men's Waterpolo vs. UC Irvine</name>
           <start_time>
@@ -8789,16 +9580,28 @@ http://usc.facebook.com/event.php?eid=14750715202</description>
           <location></location>
           <description></description>
         </event><day_name>30</day_name></day><month_name>November</month_name></month><month><day><event>
-          <name>Men's Basketball vs. Kansas</name>
+          <name>UCLA football</name>
           <start_time>
-            <hour>11</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>13</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </end_time>
-          <location>Galen Center</location>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>UCLA football</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
           <description></description>
         </event><event>
           <name>Men's Basketball vs. Kansas</name>
@@ -8825,17 +9628,29 @@ http://usc.facebook.com/event.php?eid=14750715202</description>
           <location>Trojan Vision Station</location>
           <description></description>
         </event><day_name>01</day_name></day><day><event>
-          <name>Pajama Popcorn Parties</name>
+          <name>GO! day trip</name>
           <start_time>
-            <hour>19</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>21</hour>
+            <hour>22</hour>
             <minute>00</minute>
           </end_time>
-          <location>PAHRC 3rd and 4th Central Lounges</location>
-          <description> Popcorn and treats to celebrate the coming \"HOLIDAY\" in the 3rd floor lounge, and cider and cookies for students - not \"40 YEAR OLD VIRGINS\" - in the 4th floor lounge.</description>
+          <location>Pardee Tower</location>
+          <description> The GO! Floor Outdoor Games are here, only the most rugged will survive!  Timber!</description>
+        </event><event>
+          <name>GO! day trip</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>22</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>Pardee Tower</location>
+          <description> The GO! Floor Outdoor Games are here, only the most rugged will survive!  Timber!</description>
         </event><day_name>02</day_name></day><day><event>
           <name>PAHRC Hanukkah Program</name>
           <start_time>
@@ -8979,14 +9794,38 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>Leonard Davis Auditorium, Andrus Gerontology Center</location>
           <description></description>
         </event><day_name>06</day_name></day><day><event>
-          <name>Staff Recognition Breakfast</name>
+          <name>Classes End</name>
           <start_time>
-            <hour>08</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>09</hour>
+            <hour>17</hour>
             <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>Classes End</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>17</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>La P{osada: Celebrating Latin American Holiday Traditions</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>18</hour>
+            <minute>30</minute>
           </end_time>
           <location></location>
           <description></description>
@@ -9145,13 +9984,25 @@ Meet Patrice Barber, USCs Registered Dietician and Nutritionist, who can Assist 
 
 Note: This event is only open to residents of the 3rd floor green side.</description>
         </event><day_name>19</day_name></day><day><event>
-          <name>Alternative Winter Break</name>
+          <name>LAST DAY</name>
           <start_time>
             <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
+            <hour>14</hour>
+            <minute>00</minute>
+          </end_time>
+          <location></location>
+          <description></description>
+        </event><event>
+          <name>LAST DAY</name>
+          <start_time>
             <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>14</hour>
             <minute>00</minute>
           </end_time>
           <location></location>
@@ -9193,19 +10044,41 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>Trojan Vision Station</location>
           <description></description>
         </event><day_name>22</day_name></day><day><event>
-          <name>ealthy Food Demo</name>
+          <name>Christmas Eve</name>
           <start_time>
-            <hour>20</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>21</hour>
+            <hour>19</hour>
             <minute>00</minute>
           </end_time>
-          <location>Evk</location>
-          <description> Healthy Food Demonstration to be held at EVK
-5:00-7:00 pm
-Meet Patrice Barber, USCs Registered Dietician and Nutritionist, who can Assist you to create a healthy plan for eating at Residential Dining.</description>
+          <location>United States</location>
+          <description></description>
+        </event><day_name>24</day_name></day><day><event>
+          <name>Christmas Day</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>13</hour>
+            <minute>30</minute>
+          </end_time>
+          <location>United States</location>
+          <description></description>
+        </event><event>
+          <name>Christmas Day</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>13</hour>
+            <minute>30</minute>
+          </end_time>
+          <location>United States</location>
+          <description></description>
         </event><event>
           <name>ealthy Food Demo</name>
           <start_time>
@@ -9247,940 +10120,16 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           <location>Parkside SCR, and PAHRC apt. 1315</location>
           <description></description>
         </event><day_name>27</day_name></day><day><event>
-          <name>RESIDENT MOVE IN DAY</name>
+          <name>National ice-cream day</name>
           <start_time>
-            <hour>00</hour>
+            <hour>23</hour>
             <minute>00</minute>
           </start_time>
           <end_time>
-            <hour>16</hour>
+            <hour>00</hour>
             <minute>00</minute>
           </end_time>
           <location></location>
-          <description></description>
-        </event><event>
-          <name>RESIDENT MOVE IN DAY</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>16</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Residents Move In</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>16</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Classes Begin</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Funding Starts</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Passport Kick-off, welcome convocation, outdoor event</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>aryushana begins (Jain)</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>15</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Bike Registration and meet the DPS</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>04</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Trojan History, Knights and Helens?</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>11</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>USC v. Idaho Football</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>03</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Sorority Recruitment</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>BG Info Night</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Sorority Recruitment</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Labor Day NO SCHOOL!</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>United States</location>
-          <description></description>
-        </event><event>
-          <name>IM Soccer Entries Due</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>15</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Interfaith Council</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>15</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Sri Krishna Jayanti (Hindu)</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>15</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Money Management</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>16</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>Credit Union</location>
-          <description></description>
-        </event><event>
-          <name>Healthy Food Demo</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>04</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>Evk</location>
-          <description></description>
-        </event><event>
-          <name>Sorority Recruitment</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>11</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Nativity of the Blessed Virgin Mary (Roman Catholic)</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>03</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Sorority Recruitment</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>03</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Sorority Recruitment</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Building Level Study Groups</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>OT Sleep Programs</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Workout Classes Begin</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>Lyon Center</location>
-          <description></description>
-        </event><event>
-          <name>9/11 tribute</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>15</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>IM 3x3 Basketball Entries Due</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>15</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>IM Tennis Entries Due</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>15</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Fall Volunteer Fair</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>16</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>Trousdale</location>
-          <description></description>
-        </event><event>
-          <name>OT Adjusting to College Life Clinic</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>04</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Bike Sale</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>04</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>McCarthy</location>
-          <description></description>
-        </event><event>
-          <name>Last Day to Change Classes</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>11</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>RAD Training</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>11</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Rites of Sisterhood Mentor Retreat</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>11</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Passport Finale-healthy Food Floor Meeting</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>IM Golf Entries Due</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>15</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Over-The-Line Softball Entries Due</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>15</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>TNL: SOUTH SIDE!</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>04</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>BeachFest 2x2 Volleyball tournament</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>11</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>Beach</location>
-          <description></description>
-        </event><event>
-          <name>USC v. Washington Football</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>03</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>GO! day trip</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description> We will either be adopting a beach or getting surfing lessons! YAY beach days!</description>
-        </event><event>
-          <name>IM Dodgeball Teaml Entries Due</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>15</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Ana's Due</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>11</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>International Alternative Break Applications Due</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>11</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Flag Football Entries Due</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>15</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Stanford football</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>03</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>FAB: Models of Pride Conference</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>03</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>Occidental College</location>
-          <description> RSVP required</description>
-        </event><event>
-          <name>FAB: Gay Days @ Disneyland</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>Disneyland</location>
-          <description></description>
-        </event><event>
-          <name>GO! day trip</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>Griffith Park</location>
-          <description> Horse Back Riding!</description>
-        </event><event>
-          <name>Coming Out BBQ</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>Alumni Park</location>
-          <description></description>
-        </event><event>
-          <name>Columbus Day</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>United States</location>
-          <description></description>
-        </event><event>
-          <name>Human Rights Campaign Legacy of Service Tour</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>15</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>U of A football</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>03</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Unofficial Tailgayte</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>03</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Write to Congress: Don't Ask, Don't Tell Policy</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>Rainbow</location>
-          <description></description>
-        </event><event>
-          <name>Applications for 2007 Conquest Competitions Due</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>11</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Freshman 15 Due</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>11</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>LA AIDs Walk</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>21</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Domestic Alternative Break Applications Due</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>11</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Halloween</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>16</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>United States</location>
-          <description></description>
-        </event><event>
-          <name>OSU Football</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>03</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Lambda Alumni Association Homecoming Tailgayte</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>03</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>Argue Plaza</location>
-          <description></description>
-        </event><event>
-          <name>Election Day</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>14</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>United States</location>
-          <description></description>
-        </event><event>
-          <name>Weekender at Berkeley</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>02</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Veteran's Day</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>20</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>United States</location>
-          <description></description>
-        </event><event>
-          <name>PLAYERS BALL</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>10</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>GO! day trip</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>02</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description> Rock Climbing Trip!!!</description>
-        </event><event>
-          <name>November Service Day</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>02</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Theatre/Language/Vision: Changing the World With Words</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>02</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>UCLA football</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>02</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>GO! day trip</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>20</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>Pardee Tower</location>
-          <description> The GO! Floor Outdoor Games are here, only the most rugged will survive!  Timber!</description>
-        </event><event>
-          <name>Classes End</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>10</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>La P{osada: Celebrating Latin American Holiday Traditions</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>10</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>LAST DAY</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>03</hour>
-            <minute>00</minute>
-          </end_time>
-          <location></location>
-          <description></description>
-        </event><event>
-          <name>Christmas Eve</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>20</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>United States</location>
-          <description></description>
-        </event><event>
-          <name>Christmas Day</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>14</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>United States</location>
-          <description></description>
-        </event><event>
-          <name>New Year's Eve</name>
-          <start_time>
-            <hour>00</hour>
-            <minute>00</minute>
-          </start_time>
-          <end_time>
-            <hour>20</hour>
-            <minute>00</minute>
-          </end_time>
-          <location>United States</location>
           <description></description>
         </event><day_name>28</day_name></day><day><event>
           <name>Trojan Vision Host Tryouts</name>
@@ -10194,4 +10143,16 @@ Note: This event is only open to residents of the 3rd floor green side.</descrip
           </end_time>
           <location>Trojan Vision Station</location>
           <description></description>
-        </event><day_name>29</day_name></day><month_name>December</month_name></month><year_name>2007</year_name></year></calendar>
+        </event><day_name>29</day_name></day><day><event>
+          <name>New Year's Eve</name>
+          <start_time>
+            <hour>00</hour>
+            <minute>00</minute>
+          </start_time>
+          <end_time>
+            <hour>14</hour>
+            <minute>00</minute>
+          </end_time>
+          <location>United States</location>
+          <description></description>
+        </event><day_name>31</day_name></day><month_name>December</month_name></month><year_name>2007</year_name></year></calendar>
