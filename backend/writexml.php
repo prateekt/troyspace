@@ -26,7 +26,7 @@ $beginYear = 2007;
 $endDay = 31;
 $endMonth = 12;
 $endYear = date("Y");
-$sessionKey = 1001;
+$sessionKey = "calendar_data";
 
 $calendar[0]="http://www.google.com/calendar/feeds/usccalendar@gmail.com/public/basic";
 $calendar[1]="http://www.google.com/calendar/feeds/r2qnh7d3mttl3bbvbvbptm01us@group.calendar.google.com/public/basic";
