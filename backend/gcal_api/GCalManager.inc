@@ -7,12 +7,12 @@ class GCalManager {
 	function GCalManager(){
 	}
 
-	function getEventsListing($startDate, $endDate, $calendarListing, $cache_location) {
+	function getEventsListing($startDate, $endDate, $calendarListing, $cache_location, $maxResults) {
 		$oneEventExists = false;
 		
 		foreach($calendarListing as $calendar_xml_address) {
 			$feed = new SimplePie();
-			$feedURL = $calendar_xml_address . "?start-min=" . $startDate . "&start-max=" . $endDate ."&max-results=50000000";
+			$feedURL = $calendar_xml_address . "?start-min=" . $startDate . "&start-max=" . $endDate ."&max-results=". $maxResults;
 			echo $feedURL;
 			$feed->feed_url($feedURL);
 			$feed->cache_location($cache_location);
@@ -28,7 +28,11 @@ class GCalManager {
 			
 				//Extract id
 				$id = $item->get_id();
-
+				
+				//Extract title
+				$title = $item->get_title();
+				$title = $this->fixoutput($title);
+				
 				// Extract the 'where' information from the item summary, and ignore everything else
 				$where = $item->get_description();
 				$ignore_where=false;
@@ -36,6 +40,7 @@ class GCalManager {
 					$where = substr($where,strpos($where,"Where: ")+6);
 				$where = trim(substr($where,0,strpos($where,"&lt;")));
 				if (substr($where,0,2)=="20" or $ignore_where) {$where = "";} // If there's no location, just ignore it
+				$where = $this->fixoutput($where);
 
 				// Extra event description
 				$desc = $item->get_description();
@@ -68,14 +73,14 @@ class GCalManager {
 							$endTimeStr = substr($endTimeStr, 0,  strpos($endTimeStr, '&'));
 							$endTime = strtotime($endTimeStr);
 						}
-						$events[]=array('beginTime'=>$beginTime, 'endTime'=>$endTime, 'where'=>$where,'title'=>$item->get_title(), 'desc'=>$desc,'url'=>$url[0], 'id'=>$id);
+						$events[]=array('beginTime'=>$beginTime, 'endTime'=>$endTime, 'where'=>$where,'title'=>$title, 'desc'=>$desc,'url'=>$url[0], 'id'=>$id);
 					}
 					//All day event
 					else {
 						$pos1 = strpos($from, "&lt;");
 						$beginTimeStr = substr($from, 0, $pos1);
 						$beginTime = strtotime($beginTimeStr);
-						$events[]=array('beginTime'=>$beginTime, 'endTime'=>$endTime, 'where'=>$where,'title'=>$item->get_title(), 'desc'=>$desc,'url'=>$url[0], 'id'=>$id);
+						$events[]=array('beginTime'=>$beginTime, 'endTime'=>$endTime, 'where'=>$where,'title'=>$title, 'desc'=>$desc,'url'=>$url[0], 'id'=>$id);
 					}
 				}
 				else { //Recurring  event
@@ -123,6 +128,9 @@ class GCalManager {
 			}//fi
 		}//rof
 		
+		//put encoded charcters back in.
+		$newstr = html_entity_decode($newstr);
+				
 		//replace duplicate white spaces.
 		while(strpos($newstr, "  ")===true) {
 			$newstr = str_replace("  ", " ", $newstr);

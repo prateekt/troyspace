@@ -56,14 +56,14 @@ class XMLGenerator {
 		$lastEvent = "";
 		
 		foreach($events as $event) {
-			
+				
 			//get current event time attributes
 			$eventMonth = date("m", $event['beginTime']);
 			$eventYear = date("Y", $event['beginTime']);
 			$eventDay = date("d", $event['beginTime']);
 						
 			if($eventYear==$cYear && $eventMonth==$cMonth && $eventDay==$cDay) {
-				$this->buff = $this->buff . $this->genEventXML($lastEvent);
+				$this->buff = $this->buff . $this->genEventXML($event);
 			}
 			else if($eventYear==$cYear && $eventMonth==$cMonth) {
 				$this->buff = $this->buff . $this->genDayCloseXML($lastEvent);

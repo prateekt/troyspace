@@ -25,7 +25,7 @@ $beginMonth = 1;
 $beginYear = 2007;
 $endDay = 31;
 $endMonth = 12;
-$endYear = date("Y");
+$endYear = 2008;
 $sessionKey = "calendar_data";
 
 $calendar[0]="http://www.google.com/calendar/feeds/usccalendar@gmail.com/public/basic";
@@ -37,14 +37,16 @@ $calendar[5]="http://www.google.com/calendar/feeds/p1jkqpkrqeltabq915v3nq7k9k@gr
 
 $beginTimeStr = $g->getBeginTimeStr(mktime(0,0,0,$beginMonth,$beginDay,$beginYear));
 $endTimeStr = $g->getEndTimeStr(mktime(23,59,59, $endMonth, $endDay, $endYear));
-$events = $g->getEventsListing($beginTimeStr, $endTimeStr, $calendar, $GLOBALS['cache_location']);
+$events = $g->getEventsListing($beginTimeStr, $endTimeStr, $calendar, $GLOBALS['cache_location'], 5000000);
 
 if($events===false) {
-	echo "No events scheduled for this week.";
+	echo "No events scheduled for this time period.";
 } else {
 	$xmlWriter = new XMLGenerator();
 	$fileWriter = new FileWriter();
 	$fileWriter->writeFile("xml_storage/" . $sessionKey . ".xml", $xmlWriter->getXML($events));
 }
+
+echo "<BR><BR>Done";
 
 ?>
