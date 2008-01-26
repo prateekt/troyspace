@@ -20,6 +20,7 @@ $endYear = date("Y", $next);
 $sessionKey = "calendar_data";
 
 $calendar[0]="http://www.google.com/calendar/feeds/p1jkqpkrqeltabq915v3nq7k9k@group.calendar.google.com/public/basic";
+$calendar[1]="http://www.google.com/calendar/feeds/usccalendar@gmail.com/public/basic";
 $beginTimeStr = $g->getBeginTimeStr(mktime(0,0,0,$beginMonth,$beginDay,$beginYear));
 $endTimeStr = $g->getEndTimeStr(mktime(23,59,59, $endMonth, $endDay, $endYear));
 $events = $g->getEventsListing($beginTimeStr, $endTimeStr, $calendar, $GLOBALS['cache_location'], 5000000);
@@ -48,12 +49,12 @@ function genEventCode($event, $includeDate) {
 	$template = 
 	"<body>";
 	if($includeDate) {
-	 $template = $template . "<p class=\"Date\">" . date("l (m/d)", $event['beginTime']) . "</p>";
+	 $template = $template . "<p style=\"font-family: Arial, Helvetica, sans-serif;font-size: 18pt;font-weight: bold;color: #0033FF;\">" . date("l (m/d)", $event['beginTime']) . "</p>";
 	}
 	$template = $template . 
 	 "<ul>
-	   <li><span class=\"name\"><strong>"  . $event['title'] . ":</strong></span><strong><span class=\"style2\"> <span class=\"location\">". $event['location'] ."</span></span><span class=\"time\">" . date("(g:i a)", $event['beginTime']). "</span><span class=\"style2\"><br>
-		  <em class=\"description\">" . $event['desc']."</em></span></strong></li>
+	   <li><span style=\"font-family: Arial, Helvetica, sans-serif;font-size: 18pt;font-weight: bold;color: #FF0000;\"><strong>"  . $event['title'] . ":</strong></span><strong><span class=\"style2\"> <span style=\"font-family: Arial, Helvetica, sans-serif;font-size: 10pt;color: #009900;\">". $event['where'] ."&nbsp;&nbsp;</span></span><span style=\"font-family: Arial, Helvetica, sans-serif;font-size: 10pt;font-weight: bold;color: #6633FF;\">" . date("(g:i a)", $event['beginTime']). "</span><span class=\"style2\"><br>
+		  <em style=\"font-family: Arial, Helvetica, sans-serif;font-size: 10pt;font-weight: bold;color: #666666;\">" . $event['desc']."</em></span></strong></li>
 	 </ul>
 	</body>";	
 	return $template;
