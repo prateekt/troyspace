@@ -25,6 +25,8 @@ $beginTimeStr = $g->getBeginTimeStr(mktime(0,0,0,$beginMonth,$beginDay,$beginYea
 $endTimeStr = $g->getEndTimeStr(mktime(23,59,59, $endMonth, $endDay, $endYear));
 $events = $g->getEventsListing($beginTimeStr, $endTimeStr, $calendar, $GLOBALS['cache_location'], 5000000);
 
+echo "<BR>" . $beginDay . " " . $beginMonth . " " .$beginYear;
+
 if($events===false) {
 	echo "No events scheduled for this time period.";
 } else {
@@ -53,7 +55,7 @@ function genEventCode($event, $includeDate) {
 	}
 	$template = $template . 
 	 "<ul>
-	   <li><span style=\"font-family: Arial, Helvetica, sans-serif;font-size: 18pt;font-weight: bold;color: #FF0000;\"><strong>"  . $event['title'] . ":</strong></span><strong><span class=\"style2\"> <span style=\"font-family: Arial, Helvetica, sans-serif;font-size: 10pt;color: #009900;\">". $event['where'] ."&nbsp;&nbsp;</span></span><span style=\"font-family: Arial, Helvetica, sans-serif;font-size: 10pt;font-weight: bold;color: #6633FF;\">" . date("(g:i a)", $event['beginTime']). "</span><span class=\"style2\"><br>
+	   <li><span style=\"font-family: Arial, Helvetica, sans-serif;font-size: 18pt;font-weight: bold;color: #FF0000;\"><strong>"  . $event['title'] . ":</strong></span><strong><span class=\"style2\"> <span style=\"font-family: Arial, Helvetica, sans-serif;font-size: 10pt;color: #009900;\">". $event['where'] ."&nbsp;&nbsp;</span></span><span style=\"font-family: Arial, Helvetica, sans-serif;font-size: 10pt;font-weight: bold;color: #6633FF;\">" . date("g:i a", $event['beginTime']). "</span><span class=\"style2\"><br>
 		  <em style=\"font-family: Arial, Helvetica, sans-serif;font-size: 10pt;font-weight: bold;color: #666666;\">" . $event['desc']."</em></span></strong></li>
 	 </ul>
 	</body>";	
