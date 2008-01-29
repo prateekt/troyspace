@@ -13,7 +13,7 @@ class GCalManager {
 		foreach($calendarListing as $calendar_xml_address) {
 			$feed = new SimplePie();
 			$feedURL = $calendar_xml_address . "?start-min=" . $startDate . "&start-max=" . $endDate ."&max-results=". $maxResults;
-			echo $feedURL;
+//			echo $feedURL;
 			$feed->feed_url($feedURL);
 			$feed->cache_location($cache_location);
 			$feed->init();
