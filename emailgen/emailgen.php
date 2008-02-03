@@ -51,7 +51,7 @@ function genEventCode($event, $includeDate) {
 	$template = 
 	"<body>";
 	if($includeDate) {
-	 $template = $template . "<p style=\"font-family: Arial, Helvetica, sans-serif;font-size: 18pt;font-weight: bold;color: #0033FF;\">" . date("l (m/d)", $event['beginTime']) . "</p>";
+	 $template = $template . "<p style=\"font-family: Arial, Helvetica, sans-serif;font-size: 18pt;font-weight: bold;color: #0033FF;\">" . date("l (n/d)", $event['beginTime']) . "</p>";
 	}
 	$template = $template . 
 	 "<ul>
