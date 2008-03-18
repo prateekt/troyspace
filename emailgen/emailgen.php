@@ -18,14 +18,40 @@ $endDay = date("d", $next);
 $endMonth = date("m", $next);
 $endYear = date("Y", $next);
 $sessionKey = "calendar_data";
+$includeCampusEvents = $_GET['includeCampusEvents'];
+$calendarReq = $_GET['calendar'];
 
-$calendar[0]="http://www.google.com/calendar/feeds/p1jkqpkrqeltabq915v3nq7k9k@group.calendar.google.com/public/basic";
-$calendar[1]="http://www.google.com/calendar/feeds/usccalendar@gmail.com/public/basic";
+//set base calendar
+if($calendarReq=="parkside") {
+	$calendar[0]="http://www.google.com/calendar/feeds/p1jkqpkrqeltabq915v3nq7k9k@group.calendar.google.com/public/basic";
+}
+else if($calendarReq=="east") {
+	$calendar[0]="http://www.google.com/calendar/feeds/vlrn9o4kqb9l0u5kg17kvqrrt4@group.calendar.google.com/public/basic";
+}
+else if($calendarReq=="north") {
+	$calendar[0]="http://www.google.com/calendar/feeds/r2qnh7d3mttl3bbvbvbptm01us@group.calendar.google.com/public/basic";
+
+}
+else if($calendarReq=="south") {
+	$calendar[0]="http://www.google.com/calendar/feeds/m9ijld6jui1n7348ln82fet7po@group.calendar.google.com/public/basic";
+
+}
+else if($calendarReq=="west") {
+	$calendar[0]="http://www.google.com/calendar/feeds/6j4lo836fsfdebnlrp3tu071es@group.calendar.google.com/public/basic";
+}
+else{
+	$calendar[0]="http://www.google.com/calendar/feeds/p1jkqpkrqeltabq915v3nq7k9k@group.calendar.google.com/public/basic";
+}
+
+//if include campus calendar, include it.
+if($includeCampusEvents!="") {
+	$calendar[1]="http://www.google.com/calendar/feeds/usccalendar@gmail.com/public/basic";
+}
+
+//query data with begin,end
 $beginTimeStr = $g->getBeginTimeStr(mktime(0,0,0,$beginMonth,$beginDay,$beginYear));
 $endTimeStr = $g->getEndTimeStr(mktime(23,59,59, $endMonth, $endDay, $endYear));
 $events = $g->getEventsListing($beginTimeStr, $endTimeStr, $calendar, $GLOBALS['cache_location'], 5000000);
-
-echo "<BR>" . $beginDay . " " . $beginMonth . " " .$beginYear;
 
 if($events===false) {
 	echo "No events scheduled for this time period.";
