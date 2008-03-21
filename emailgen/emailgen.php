@@ -68,21 +68,21 @@ $includeCampusEvents = $_GET['includeCampusEvents'];
 $calendarReq = $_GET['calendar'];
 
 //set base calendar
-if($calendarReq=="parkside") {
+if($calendarReq=="Parkside") {
 	$calendar[0]="http://www.google.com/calendar/feeds/p1jkqpkrqeltabq915v3nq7k9k@group.calendar.google.com/public/basic";
 }
-else if($calendarReq=="east") {
+else if($calendarReq=="East") {
 	$calendar[0]="http://www.google.com/calendar/feeds/vlrn9o4kqb9l0u5kg17kvqrrt4@group.calendar.google.com/public/basic";
 }
-else if($calendarReq=="north") {
+else if($calendarReq=="North") {
 	$calendar[0]="http://www.google.com/calendar/feeds/r2qnh7d3mttl3bbvbvbptm01us@group.calendar.google.com/public/basic";
 
 }
-else if($calendarReq=="south") {
+else if($calendarReq=="South") {
 	$calendar[0]="http://www.google.com/calendar/feeds/m9ijld6jui1n7348ln82fet7po@group.calendar.google.com/public/basic";
 
 }
-else if($calendarReq=="west") {
+else if($calendarReq=="West") {
 	$calendar[0]="http://www.google.com/calendar/feeds/6j4lo836fsfdebnlrp3tu071es@group.calendar.google.com/public/basic";
 }
 else{
@@ -90,7 +90,7 @@ else{
 }
 
 //if include campus calendar, include it.
-if($includeCampusEvents!="") {
+if($includeCampusEvents=="true") {
 	$calendar[1]="http://www.google.com/calendar/feeds/usccalendar@gmail.com/public/basic";
 }
 
