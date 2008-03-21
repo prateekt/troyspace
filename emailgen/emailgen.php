@@ -1,6 +1,52 @@
 <?php
 session_start();
-
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+.Date {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	color: #0033FF;
+}
+.name {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	color: #FF0000;
+}
+.time {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #6633FF;
+}
+.location {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #009900;
+}
+.description {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #666666;
+}
+-->
+</style>
+</head>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="800" height="250">
+  <param name="movie" value="../email/EmailCutAndPasteWindow.swf" />
+  <param name="quality" value="high" />
+  <embed src="../email/EmailCutAndPasteWindow.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="800" height="250"></embed>
+</object>
+<?php
 include ("../backend/gcal_api/GCalManager.inc");
 include_once "../backend/constants.php";
 
@@ -89,45 +135,3 @@ function genEventCode($event, $includeDate) {
 }
 
 ?>
-
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<title>Untitled Document</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<style type="text/css">
-<!--
-.Date {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18pt;
-	font-weight: bold;
-	color: #0033FF;
-}
-.name {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18pt;
-	font-weight: bold;
-	color: #FF0000;
-}
-.time {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
-	font-weight: bold;
-	color: #6633FF;
-}
-.location {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
-	color: #009900;
-}
-.description {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
-	font-weight: bold;
-	color: #666666;
-}
--->
-</style>
-</head>
